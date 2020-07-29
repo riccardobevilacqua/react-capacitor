@@ -1,0 +1,16 @@
+.idea
+.DS_Store
+.env
+.idea
+.gradle
+Thumbs.db
+
+node_modules
+dist
+.tmp
+
+*.apk
+*.ap_
+*.class
+
+*.log
