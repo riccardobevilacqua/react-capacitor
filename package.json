@@ -4,8 +4,9 @@
   "description": "Simple React web app built for Android via Capacitor",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js && npx cap copy android",
     "start": "webpack-dev-server --config webpack.dev.js",
+    "add:android": "npx cap add android",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
